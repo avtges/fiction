@@ -139,7 +139,7 @@ There was a night, years ago, when he sat across from his father in a quiet izak
 
 Hiroshi nodded but offered nothing in return.
 
-He had known then, as he knew now, that there was no family waiting for him. No home filled with the weight of someone else’s presence. He spent years convincing himself that solitude was preferable to the gnawing ache of responsibility.
+He flinched at the thought. There was no family waiting for him. No home filled with the weight of someone else’s presence. He spent years convincing himself that solitude was preferable to the gnawing ache of responsibility.
 
 But in this dim, hushed space, he wondered if he had been wrong.
 
