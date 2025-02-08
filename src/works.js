@@ -123,7 +123,7 @@ Before long, a waiter appeared. His voice was composed, neither somber nor warm.
 
 Hiroshi nodded.
 
-The first course arrived: a delicate slice of tai sashimi, translucent and cool against the bed of clear ice shards. A small vial labeled **To Start** accompanied it.
+The first course arrived: a delicate slice of tai sashimi, translucent and cool against the bed of clear ice shards. A small vial labeled _To Start_ accompanied it.
 
 He lifted the glass bottle to his lips.
 
