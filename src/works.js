@@ -97,7 +97,7 @@ The fire burned. The dust settled. And for the first time in a long time, we sto
         description: `Inside, warm light bathed the space in soft shadows. The restaurant, Deguchi, was known by reputation but never in conversation. Its service was precise, discreet. It was the final stop for those who had decided their story had reached its last page. A small, almost polite notice near the entrance read: Dinner service only. Reservations required. No refunds. An ironic reminder of the irreversible step that awaited.`,
         fullText: `On a quiet Kyoto side street, a deep-red neon sign burned above a plain dark door.
 
-In bold kanji, it read 出口, with _Exit_ printed beneath.
+In bold kanji, it read **出口**, with _Exit_ printed beneath.
 
 Hiroshi Nakamura, burdened by the quiet suffocation of a demanding career, the weight of being 36 and never married, and the isolation that had calcified around him, paused before the door. He had carried loneliness like a dull ache—something always present, never urgent enough to address—until it had finally settled in.
 
