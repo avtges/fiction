@@ -27,7 +27,6 @@ const Home = () => (
             ))}
         </section>
         <footer className="footer">
-            <p>&copy; 2025 Will Hunter. All rights reserved.</p>
             <div className="social-links">
                 <a href="https://www.instagram.com/nkeswoosh" className="social-link">Instagram</a>
                 <a href="https://www.linkedin.com/in/will-hunter1/" className="social-link">LinkedIn</a>
