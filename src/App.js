@@ -43,7 +43,7 @@ const WorkDetail = () => {
     return work ? (
         <div className="container">
             <header className="header">{work.title}</header>
-            <p>{work.description}</p>
+            <p></p>
             <p></p>
             <div className="story-content">
                 {work.fullText.split("\n").map((paragraph, index) => (

@@ -97,7 +97,7 @@ The fire burned. The dust settled. And for the first time in a long time, we sto
         description: `Inside, warm light bathed the space in soft shadows. The restaurant, Deguchi, was known by reputation but never in conversation. Its service was precise, discreet. It was the final stop for those who had decided their story had reached its last page. A small, almost polite notice near the entrance read: Dinner service only. Reservations required. No refunds. An ironic reminder of the irreversible step that awaited.`,
         fullText: `On a quiet Kyoto side street, a deep-red neon sign burned above a plain dark door.
 
-In bold kanji, it read 出口, with “Exit” printed beneath.
+In bold kanji, it read 出口, with _Exit_ printed beneath.
 
 Hiroshi Nakamura, burdened by the quiet suffocation of a demanding career, the weight of being 36 and never married, and the isolation that had calcified around him, paused before the door. He had carried loneliness like a dull ache—something always present, never urgent enough to address—until it had finally settled in.
 
@@ -135,11 +135,11 @@ The memory passed over him like air disturbed by a fan.
 
 A bowl of miso soup, its scent rising in slow, deliberate waves. The faint, almost floral bitterness of shiso. An odd serenity settled in his chest like it was placed there. 
 
-There was a night, years ago, when he had sat across from his father in a quiet izakaya, the air thick with charcoal and soy. His father had said, “You’re thirty now. It’s time to think about a wife, a family.”
+There was a night, years ago, when he sat across from his father in a quiet izakaya, the air thick with charcoal and soy. His father said, “You’re thirty now. It’s time to think about a wife, a family.”
 
-Hiroshi had nodded but offered nothing in return.
+Hiroshi nodded but offered nothing in return.
 
-He had known then, as he knew now, that there was no family waiting for him. No home filled with the weight of someone else’s presence. He had spent years convincing himself that solitude was preferable to the gnawing ache of responsibility.
+He had known then, as he knew now, that there was no family waiting for him. No home filled with the weight of someone else’s presence. He spent years convincing himself that solitude was preferable to the gnawing ache of responsibility.
 
 But in this dim, hushed space, he wondered if he had been wrong.
 
@@ -153,17 +153,17 @@ Had anyone noticed his absence? Had anyone ever wondered where he ate, if he ate
 
 A small dish of pickled daikon arrived, sharp and bright on the tongue. A palate cleanser.
 
-He stared at it, at the vivid yellow of the thinly sliced radish. It reminded him of the one meal he had shared with a woman he once loved.
+He stared at it, at the vivid yellow of the thinly sliced radish. It reminded him of the one meal he shared with a woman he once loved.
 
-He had thought, then, that they were moving toward something inevitable. That their laughter, the ease of their silences, meant something lasting.
+He thought, then, that they were moving toward something inevitable. That their laughter, the ease of their silences, meant something lasting.
 
-But she had wanted a future he could not promise.
+But she wanted a future he could not promise.
 
-"I don’t want to be your second thought," she had told him, setting her chopsticks down beside a half-finished plate of grilled fish.
+"I don’t want to be your second thought," she told him, setting her chopsticks down beside a half-finished plate of grilled fish.
 
 He watched as she left, the door clicking shut behind her. And he did not follow.
 
-Now, tasting the daikon—crisp, clean, bitter—he realized that he had not been her second thought. He had simply never given her reason to believe she was his first.
+Now, tasting the daikon—crisp, clean, bitter—he realized that he had not been her second thought. He simply never gave her reason to believe she was his first.
 
 The final course was placed before him: a matcha pastry, impossibly delicate layers stacked upon one another, the faint bitterness of green tea dusted across its surface. A small cup of dark, syrupy tea sat beside it.
 
@@ -187,11 +187,11 @@ The dark metal handle was cool beneath his grasp.
 
 He stood there for a long moment, caught up in the promise of his choice to live. 
 
-For the first time in years, he had truly tasted something.
+For the first time in years, he truly tasted something.
 
 He pushed the door open and walked through it.
 
-Outside, the night air met him like an old friend. The neon glow of 出口 burned against the dark.
+Outside, the night air met him like an old friend. The neon glow of **出口** burned against the dark.
 
 It no longer looked like an answer.
 
