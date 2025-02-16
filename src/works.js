@@ -94,7 +94,7 @@ It is a translation of a language you used to speak fluently but have since forg
 
 There are pauses where there used to be certainty. Laughter where there used to be reverence.
 
-At some point, between tangled sheets and moments they both refused to name, Elaine whispered, “What do you think happens to the version of us that never broke up?”
+Somehwere between the top sheet and the fitted, and moments they both refused to name, Elaine whispered, “What do you think happens to the version of us that never broke up?”
 
 Marcus exhaled against her skin. “I think they’re probably having a very boring, very peaceful life right now.”
 
