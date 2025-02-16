@@ -120,7 +120,7 @@ Elaine stared at him, knowing this was the closest he would ever come to a confe
 
 She took a sip of coffee. “So, breakfast burritos, then closure?”
 
-Marcus said grinning, “I think so.”
+Marcus said smiling, “I think so.”
 
 They sat together in the kind of silence that wasn’t empty, but full.
 
