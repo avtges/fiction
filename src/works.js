@@ -1,7 +1,7 @@
 export const works = [
     {
         id: 1,
-        title: "The Thing You Should Know About Closure",
+        title: "The First Thing You Should Know About Closure",
         description: `Elaine was the first to speak. “So, let me get this straight. Your plan is to sleep together… so we can move on?”
 
 Marcus, hands in pockets, nodded solemnly. “Exactly.”
@@ -12,7 +12,7 @@ He shrugged. “In fairness, we’ve already tried every other dumb idea.”
 `,
         fullText: `The first thing you should know about closure is that it never really happens.
 
-Elaine’s phone buzzed with texts from Marcus—a message crafted with the precision of someone who had spent too much time rehearsing it, editing it, and ultimately surrendering to his inevitable shame after hitting send.
+Elaine’s phone buzzed with a text from Marcus—a message crafted with the precision of someone who had spent too much time rehearsing it, editing it, and ultimately surrendering to his inevitable shame after hitting send.
 
 She stared at it for a long time.
 
@@ -20,29 +20,33 @@ The problem with breaking up in the modern age was that there was no finality, n
 
 His texts came through. She sipped her coffee, rereading the words, trying to decide if they were a terrible idea, an interesting proposition, or something close to fate.
 
-Then finally Marcus said. “Maybe we should sleep together. For closure.”
+Then, finally, Marcus texted:
 
-She exhaled sharply. A laugh? A sigh? Somehow, a question forming in her mind that she knew better than to answer. But still, her thumbs hovered.
+“Maybe we should sleep together. For closure.”
+
+Elaine exhaled sharply. A laugh? A sigh? Somehow, a question formed in her mind that she knew better than to answer. But still, her thumbs hovered.
 
 Marcus had read somewhere that fire was nature’s way of making peace with itself. That had been his entire defense when he suggested what could only be described as an _arsonist’s approach_ to heartbreak.
 
-“Burn everything to the ground,” he once said, whiskey in hand, “and let whatever rises from the ashes be… I don’t know, better?”
+"Burn everything to the ground," he once said, whiskey in hand, "and let whatever rises from the ashes be… I don’t know, better?"
 
-He hadn’t expected Elaine to respond and when the read receipt appeared he gripped his phone like it held the answer to a question he wanted to secretly ask.
+He hadn’t expected Elaine to respond. But when the read receipt appeared, he gripped his phone like it held the answer to a question he wasn’t ready to ask.
 
-She replied an hour later.
+An hour later, she replied.
 
 “Is this just some elaborate scheme to sleep with me?”
 
-Marcus laughed—not at the accusation, but at the fact that, as always, she had distilled the truth from a steaming pile of well-crafted nonsense.
+Marcus laughed—not at the accusation, but at the fact that, as always, she had distilled the truth from a pile of well-crafted nonsense.
 
-He typed back. “Okay, yes. But also no. But also… maybe.”
+He typed back:
+
+“Okay, yes. But also no. But also… maybe.”
 
 She left him on read.
 
 ***
 
-Three days later, they met at the old pier. A place tangled with meaning. Wooden planks that felt the weight of their best and worst conversations. It was not an accident that they both arrived late, lingering near the splintered railing like two people in a story the author couldn’t finish.
+Three days later, they met at the old pier. A place tangled with meaning. Wooden planks that had felt the weight of their best and worst conversations. It was no accident that they both arrived late, lingering near the splintered railing like two people in a story the author couldn’t finish.
 
 Elaine was the first to speak. “So, let me get this straight. Your plan is to sleep together… so we can move on?”
 
@@ -64,13 +68,15 @@ Elaine sighed, shaking her head. “And then what, Marcus? We wake up the next m
 
 He tilted his head. “That actually sounds kind of nice.”
 
-“You are the reason the ancient Greeks invented the concept of tragedy.”
+After a moment, Elaine said, “You are the reason the ancient Greeks invented the concept of tragedy.”
 
 “And yet, they also invented wine.”
 
-Elaine, against all reason, smiled.
+Elaine sighed, “you should work in sales.”
 
-They ended up walking along the pier, talking in the way that people do when they are not entirely sure if they are looking forward or backward. They laughed in that rueful, can you believe this is our life? way. They said things that were too honest and also not honest enough.
+Against all reason, she smiled.
+
+They walked along the pier, talking in the way that people do when they’re not entirely sure if they’re looking forward or backward. They laughed in that rueful, can you believe this is our life? way. They said things that were too honest and also not honest enough.
 
 At one point, Marcus admitted, “I don’t actually know what I’m doing. I just know that we are the most unfinished thing I have ever known.”
 
@@ -78,7 +84,7 @@ Elaine swallowed. “Yeah. I know.”
 
 It was past midnight when they reached his apartment, standing outside the door like two people pondering an irreversible decision.
 
-Marcus looked at her. “Last chance to reconsider,” he grinned.
+Marcus looked at her. “Last chance to reconsider,” he said, grinning.
 
 Elaine paused, then walked past him and into his apartment.
 
@@ -92,17 +98,19 @@ At some point, between tangled sheets and moments they both refused to name, Ela
 
 Marcus exhaled against her skin. “I think they’re probably having a very boring, very peaceful life right now.”
 
-Elaine chuckled. “Ugh. Lame.”
+Elaine chuckled. “Ugh. _Lame._”
 
 The moment felt so gently perfect that Marcus wanted to frame it in glass.
 
 Instead, he kissed her, like that was somehow the same thing.
 
+***
+
 The next morning, Elaine woke up to the smell of coffee and Marcus standing in his kitchen, looking at her like a question he had no right to ask.
 
 She rubbed sleep from her eyes. “So. Do we feel… closed?”
 
-Marcus smirked. “Nope.”
+Marcus smirked, “Nope.”
 
 She groaned into a pillow. “Goddamn it.”
 
@@ -112,11 +120,12 @@ Elaine stared at him, knowing this was the closest he would ever come to a confe
 
 She took a sip of coffee. “So, breakfast burritos, then closure?”
 
-Marcus grinned. “I think so.”
+Marcus said grinning, “I think so.”
 
 They sat together in the kind of silence that wasn’t empty, but full.
 
 And maybe that was enough.
+
 `
     },
     {
