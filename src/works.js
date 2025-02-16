@@ -1,6 +1,126 @@
 export const works = [
     {
         id: 1,
+        title: "The Thing You Should Know About Closure",
+        description: `Elaine was the first to speak. “So, let me get this straight. Your plan is to sleep together… so we can move on?”
+
+Marcus, hands in pockets, nodded solemnly. “Exactly.”
+
+She gave him a look that suggested he should be immediately exiled from society. “That is categorically the dumbest idea I have ever heard.”
+
+He shrugged. “In fairness, we’ve already tried every other dumb idea.”
+`,
+        fullText: `The first thing you should know about closure is that it never really happens.
+
+Elaine’s phone buzzed with a text from Marcus—a message crafted with the precision of someone who had spent too much time rehearsing it, editing it, and ultimately surrendering to his inevitable shame after hitting send.
+
+She stared at it for a long time.
+
+The problem with breaking up in the modern age was that there was no finality, no clean severance. Just data signals and digital hauntings.
+
+She sipped her coffee, rereading the words, trying to decide if they were a terrible idea, an interesting proposition, or something close to fate.
+
+“Maybe we should sleep together. For closure.”
+
+She exhaled sharply. A laugh? A sigh? Somehow, a question forming in her mind that she knew better than to answer. But still, her thumbs hovered.
+
+Marcus had read somewhere that fire was nature’s way of making peace with itself. That had been his entire defense when he suggested what could only be described as an _arsonist’s approach_ to heartbreak.
+
+“Burn everything to the ground,” he once said, whiskey in hand, “and let whatever rises from the ashes be… I don’t know, better?”
+
+He hadn’t expected Elaine to respond and when the read receipt appeared he gripped his phone like it held the answer to a question he didn’t know how to ask.
+
+She replied an hour later.
+
+“Is this an elaborate scheme to sleep with me?”
+
+Marcus laughed—not at the accusation, but at the fact that, as always, she had distilled the truth from a steaming pile of well-crafted nonsense.
+
+He typed back:
+
+“Okay, yes. But also no. But also… maybe.”
+
+She left him on read.
+
+Three days later, they met at the old pier. A place tangled with meaning. Wooden planks that had felt the weight of their best and worst conversations. It was not an accident that they both arrived late, lingering near the splintered railing like two people in a story the author couldn’t finish writing.
+
+Elaine was the first to speak. “So, let me get this straight. Your plan is to sleep together… so we can move on?”
+
+Marcus, hands in pockets, nodded solemnly. “Exactly.”
+
+She gave him a look that suggested he should be immediately exiled from society. “That is categorically the dumbest idea I have ever heard.”
+
+He shrugged. “In fairness, we’ve already tried every other dumb idea.”
+
+The thing was, Marcus wasn’t entirely sure it was a bad idea. Not because he believed in the myth of ex-sex as an antidote to post-breakup existential dread, but because it seemed like the only honest thing left between them.
+
+They had tried closure through distance. Closure through silence. Closure through pretending to be functional, well-adjusted adults.
+
+None of it had worked.
+
+Their post-breakup interactions had been a slow-burning dumpster fire, each conversation adding kindling instead of putting out the flames.
+
+Elaine sighed, shaking her head. “And then what, Marcus? We wake up the next morning, get some breakfast burritos, and go our separate ways?”
+
+He tilted his head. “That actually sounds kind of nice.”
+
+“You are the reason the ancient Greeks invented the concept of tragedy.”
+
+“And yet, they also invented wine.”
+
+Elaine, against all reason, smiled.
+
+They ended up walking along the pier, talking in the way that people do when they are not entirely sure if they are looking forward or backward. They laughed in that rueful, can you believe this is our life? way. They said things that were too honest and also not honest enough.
+
+At one point, Marcus admitted, “I don’t actually know what I’m doing. I just know that we are the most unfinished thing I have ever known.”
+
+Elaine swallowed. “Yeah. I know.”
+
+It was past midnight when they reached his apartment, standing outside the door like two people reconsidering an irreversible decision.
+
+Marcus looked at her. “Last chance to reconsider,” he grinned.
+
+Elaine considered this, then walked past him and into his apartment.
+
+The thing about sleeping with an ex is that it is both exactly what you expect and nothing like you remember.
+
+It is a translation of a language you used to speak fluently but have since forgotten.
+
+There are pauses where there used to be certainty. Laughter where there used to be reverence.
+
+At some point, between tangled sheets and moments they both refused to name, Elaine whispered, “What do you think happens to the version of us that never broke up?”
+
+Marcus exhaled against her skin. “I think they’re probably having a very boring, very peaceful life right now.”
+
+Elaine chuckled. “Ugh. Losers.”
+
+The moment felt so gently perfect that Marcus wanted to frame it in glass.
+
+Instead, he kissed her, like that was somehow the same thing.
+
+The next morning, Elaine woke up to the smell of coffee and Marcus standing in his kitchen, looking at her like a question he had no right to ask.
+
+She rubbed sleep from her eyes. “So. Do we feel… closed?”
+
+Marcus smirked. “Nope.”
+
+She groaned into a pillow. “Goddamn it.”
+
+He handed her a mug. “But you know what? Maybe it’s okay. Maybe closure isn’t about burning everything down. Maybe it’s just… learning how to live with the parts that refuse to disappear.”
+
+Elaine stared at him, knowing this was the closest he would ever come to a confession.
+
+She took a sip of coffee. “So, breakfast burritos, then closure?”
+
+Marcus grinned. “I think so.”
+
+They sat together in the kind of silence that wasn’t empty, but full.
+
+And maybe that was enough.
+`
+    },
+    {
+        id: 2,
         title: "Father, Son and the Holy Dust",
         description: `"I thought you said this was like Yosemite," he muttered, gripping the steering wheel as a man in a sequined unitard pedaled past on a flaming bicycle.
 
@@ -92,7 +212,7 @@ The fire burned. The dust settled. And for the first time in a long time, we sto
 `
     },
 {
-        id: 2,
+        id: 3,
         title: "出口—Deguchi",
         description: `Inside, warm light bathed the space in soft shadows. The restaurant, Deguchi, was known by reputation but never in conversation. Its service was precise, discreet. It was the final stop for those who had decided their story had reached its last page. A small, almost polite notice near the entrance read: Dinner service only. Reservations required. No refunds. An ironic reminder of the irreversible step that awaited.`,
         fullText: `On a quiet Kyoto side street, a deep-red neon sign burned above a plain dark door.
@@ -200,5 +320,5 @@ Now, it was a challenge.
 And as Hiroshi walked into the quiet streets, he carried with him the taste of something unfinished. 
 
 Something worth continuing.`
-    }
+    },
 ];
