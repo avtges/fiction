@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link, useParams } from "react-router-dom";
 import "./App.css";
 import { works } from "./works";
@@ -13,7 +13,7 @@ const Home = () => (
             <p><em></em></p>
         </section>
         <section className="works">
-            <h3>Works</h3>
+            <h4>Short Stories</h4>
             <br />
             {works.map(work => (
                 <div key={work.id} className="work-item">
@@ -22,7 +22,6 @@ const Home = () => (
                     <Link to={`/work/${work.id}`} className="work-desc">{work.description}</Link>
                     <br />
                     <br />
-                    <hr />
                 </div>
             ))}
         </section>
@@ -38,13 +37,25 @@ const Home = () => (
 const WorkDetail = () => {
     const { workId } = useParams();
     const work = works.find(w => w.id === parseInt(workId));
+    const [views, setViews] = useState(0);
+
+    useEffect(() => {
+        const storedViews = localStorage.getItem(`views-${workId}`);
+        const newViews = storedViews ? parseInt(storedViews) + 1 : 1;
+        setViews(newViews);
+        localStorage.setItem(`views-${workId}`, newViews);
+
+        // Scroll to top when page loads
+        window.scrollTo(0, 0);
+
+    }, [workId]);
 
     return work ? (
-        <div className="container">
-            <header className="header">{work.title}</header>
-            <p></p>
-            <p></p>
-            <div className="story-content">
+        <div className="container exaggerated">
+            <header className="header exaggerated-header">{work.title}</header>
+            <p className="view-counter"><em>Views: {views}</em></p>
+            <p className="exaggerated-description">{work.description}</p>
+            <div className="story-content exaggerated-text">
                 {work.fullText.split("\n").map((paragraph, index) => (
                     paragraph.trim() ? (
                         <p key={index} dangerouslySetInnerHTML={{
@@ -55,7 +66,6 @@ const WorkDetail = () => {
                     ) : <br key={index} />
                 ))}
             </div>
-            <br />
             <Link to="/" className="nav-link">Back to Home</Link>
         </div>
     ) : <p className="missing">Work not found</p>;
