@@ -38,31 +38,21 @@ const Home = () => (
 const WorkDetail = () => {
     const { workId } = useParams();
     const work = works.find(w => w.id === parseInt(workId));
-    const [views, setViews] = useState(0);
+    const [views, setViews] = useState(null); // Start with null to avoid showing 0
 
     useEffect(() => {
-        if (!work) return;
+        if (!workId) return;
 
-        const workDocRef = doc(db, "views", workId.toString());
+        // Get stored views
+        const storedViews = localStorage.getItem(`views-${workId}`);
+        const currentViews = storedViews ? parseInt(storedViews) : 0;
+        const newViews = currentViews + 1;
 
-        const updateViewCount = async () => {
-            try {
-                const docSnap = await getDoc(workDocRef);
+        // Update views state
+        setViews(newViews);
 
-                if (docSnap.exists()) {
-                    const currentViews = docSnap.data().count || 0;
-                    setViews(currentViews + 1);
-                    await updateDoc(workDocRef, { count: currentViews + 1 });
-                } else {
-                    await setDoc(workDocRef, { count: 1 });
-                    setViews(1);
-                }
-            } catch (error) {
-                console.error("Error updating views:", error);
-            }
-        };
-
-        updateViewCount();
+        // Save back to localStorage
+        localStorage.setItem(`views-${workId}`, newViews);
 
         // Scroll to top when page loads
         window.scrollTo(0, 0);
@@ -71,7 +61,9 @@ const WorkDetail = () => {
     return work ? (
         <div className="container exaggerated">
             <header className="header exaggerated-header">{work.title}</header>
-            <p className="view-counter">Views: {views.toLocaleString()}</p>
+            <p className="view-counter">
+                Views: {views !== null ? views.toLocaleString() : "..."} {/* Show "..." while loading */}
+            </p>
             <div className="story-content exaggerated-text">
                 {work.fullText.split("\n").map((paragraph, index) => (
                     paragraph.trim() ? (
@@ -87,6 +79,7 @@ const WorkDetail = () => {
         </div>
     ) : <p className="missing">Work not found</p>;
 };
+
 
 const App = () => (
     <Router>
