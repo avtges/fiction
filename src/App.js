@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link, useParams } from "react-router-dom";
+import { db, doc, getDoc, setDoc, updateDoc } from "./firebase"; // Import Firebase functions
 import "./App.css";
 import { works } from "./works";
 
@@ -40,21 +41,37 @@ const WorkDetail = () => {
     const [views, setViews] = useState(0);
 
     useEffect(() => {
-        const storedViews = localStorage.getItem(`views-${workId}`);
-        const newViews = storedViews ? parseInt(storedViews) + 1 : 1;
-        setViews(newViews);
-        localStorage.setItem(`views-${workId}`, newViews);
+        if (!work) return;
+
+        const workDocRef = doc(db, "views", workId.toString());
+
+        const updateViewCount = async () => {
+            try {
+                const docSnap = await getDoc(workDocRef);
+
+                if (docSnap.exists()) {
+                    const currentViews = docSnap.data().count || 0;
+                    setViews(currentViews + 1);
+                    await updateDoc(workDocRef, { count: currentViews + 1 });
+                } else {
+                    await setDoc(workDocRef, { count: 1 });
+                    setViews(1);
+                }
+            } catch (error) {
+                console.error("Error updating views:", error);
+            }
+        };
+
+        updateViewCount();
 
         // Scroll to top when page loads
         window.scrollTo(0, 0);
-
     }, [workId]);
 
     return work ? (
         <div className="container exaggerated">
             <header className="header exaggerated-header">{work.title}</header>
-            <p className="view-counter"><em>Views: {views}</em></p>
-            <p className="exaggerated-description">{work.description}</p>
+            <p className="view-counter">Views: {views.toLocaleString()}</p>
             <div className="story-content exaggerated-text">
                 {work.fullText.split("\n").map((paragraph, index) => (
                     paragraph.trim() ? (
